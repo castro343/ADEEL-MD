@@ -1,8 +1,8 @@
 {
-  "name": "ADEEL-MD",
-  "description": "Javascript WhatsApp bot made by ADEEL-MD",
+  "name": "CASTRO-MD",
+  "description": "WhatsApp bot made by CASTRO",
   "logo": "https://files.catbox.moe/sx07qa.jpg",
-  "keywords": ["ADEEL-MD"],
+  "keywords": ["CASTRO-MD", "whatsapp", "bot"],
   "success_url": "/",
   "env": {
     "SESSION_ID": {
@@ -13,7 +13,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "ADEEL-MD"
+      "value": "CASTRO-MD"
     },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -63,12 +63,12 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ADEEL-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY CASTRO-MD*"
     },
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ADEEL-MD"
+      "value": "CASTRO"
     },
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
@@ -78,7 +78,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "ADEEL-MD"
+      "value": "CASTRO-MD"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -91,7 +91,7 @@
       "value": "false"
     },
     "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
+      "description": "make it true if want mention reply if someone mention you.",
       "required": false,
       "value": "false"
     },
@@ -108,7 +108,7 @@
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*𝐂𝐑𝐄𝐀𝐓𝐄𝐑 𝐀𝐃𝐄𝐄𝐋-𝐌𝐃*"
+      "value": "*© CREATED BY CASTRO-MD*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
@@ -116,7 +116,7 @@
       "value": "false"
     },
     "AUTO_RECORDING": {
-      "description": "Make it true if you want auto recoding.",
+      "description": "Make it true if you want auto recording.",
       "required": false,
       "value": "false"
     },
@@ -136,12 +136,12 @@
       "value": "false"
     },
     "CUSTOM_REACT_EMOJIS": {
-      "description": "put here custom react react emojis.",
+      "description": "put here custom react emojis.",
       "required": false,
       "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     },
     "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
+      "description": "change it to -same- if you want to resend deleted message in same chat otherwise inbox",
       "required": false,
       "value": "inbox"
     },
